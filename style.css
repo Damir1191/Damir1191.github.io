@@ -85,7 +85,7 @@ div>p{
     margin: 0px;
     font-family: 'Anek Devanagari', sans-serif;
 }
-@media (max-width: 500px){
+@media (max-width: 1200px){
     .section__p{
         font-size: 10px;
     }
