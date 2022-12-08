@@ -60,6 +60,7 @@ body{
 }
 p,h1{
     color: white;
+    margin: 0px;
 }
 
 main{
@@ -118,6 +119,15 @@ div>p{
     .div__img{
         margin-top: 10px;
         height: 100px;
+    }
+    .video{
+        height: 200px;
+    }
+    footer{
+        margin:0;
+    }
+    p{
+        margin: 0;
     }
 
 }
