@@ -86,6 +86,25 @@ div>p{
     margin: 0px;
     font-family: 'Anek Devanagari', sans-serif;
 }
+label{
+    font-size: 20px;
+}
+form{
+    display: flex;
+    justify-content: left;
+    margin: 10px 20px;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    flex-direction: column-reverse;
+}
+button{
+    height: 50px;
+    width: 150px;
+    margin-top: 230px;
+    margin-right: 230px;
+}
 @media (max-width: 1200px){
     .section__p{
         font-size: 10px;
@@ -128,6 +147,25 @@ div>p{
     }
     p{
         margin: 0;
+    }
+    label{
+        font-size: 20px;
+    }
+    form{
+        margin: 0px 0px;
+        flex-direction: column;
+    }
+    ul{
+        padding: 0px;  
+        width: 300px;
+        height: 200px; 
+    }
+    button{
+        height: 25px;
+        width: 100px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 200px;
     }
 
 }
